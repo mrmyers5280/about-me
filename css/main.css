@@ -1,0 +1,108 @@
+/**** main.css ****/
+body {
+	/* Typography Declarations */
+	color: #222222;
+	font-size: 1em;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+	/*Typography Declarations*/
+	color: #BF9B4F;
+	font-weight: bold;
+	text-decoration: none;
+}
+section > h1 {
+	margin-top: 2em;
+}
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+	text-align: center;
+}
+.masthead {
+	padding: 6em 0;
+	background-image: url('https://ununsplash.imgix.net/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?dpr=2&fit=crop&fm=jpg&h=625&q=75&w=950');
+	background-size: cover;
+	border-top: solid 1em #BF9B4F;
+}
+.masthead-intro {
+	/* Layout Declarations */
+	margin-bottom: 0.1em;
+	/* Typography Declarations */
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 2em;
+	color: #7E5237;
+}
+.masthead-heading {
+	/* Layout Declarations */
+	margin-top: -0.2em;
+	/* Typography Declarations */
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #3E291B;
+	text-shadow: 0 3px #BF9B4F; /*Was: #CCAB52*/
+}
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+	/*Typography Declarations*/
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+	/*Typography Declarations*/
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #BF9B4F;
+	/* Layout */
+	margin: 2em 0 1em 0;
+}
+.footer {
+	background-color: #58534A;/*Was: #4E4C59*/
+	padding: 4em 0;
+}
+.content-footer a:visited,
+.content-footer a:hover {
+	color: #BE7C53;
+}
+.content-footer > p {
+	color: white;
+}
+.social > li {
+	display: inline-block;
+	padding-right: 1.5em;
+}
+.icons {
+	border-radius: 1.25rem;
+	border: 1px solid #eaebec;
+	/*height: 2.5rem;
+	width: 2.5rem;*/
+	margin: 0 5px;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+/******** Media Queries ********/
+@media only screen and (max-width: 480px) {
+  .masthead-heading {
+	font-size: 3em;
+  }
+  .masthead {
+	padding: 3em 0;
+  }
+  .footer {
+	padding: 2em 1em;
+  }
+}
