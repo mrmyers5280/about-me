@@ -49,7 +49,7 @@ ol, ul {
 #content-footer,
 #introduction-section,
 #location-section,
-#project-section,
+.content,
 #questions-section {
 	max-width: 38em;
 	margin: 2em auto;
@@ -62,6 +62,9 @@ ol, ul {
 	font-weight: 300;
 	letter-spacing: 0.05em;
 }
+#project-section {
+	background-color: #BF9B4F;
+}
 #project-section .projects > li {
 	width: 33.33%;
 	float: left;
@@ -70,6 +73,7 @@ ol, ul {
 	width: 150px;
 }
 #questions-section h2 {
+	/* Removes extra h2 spacing above first question */
 	margin-bottom: -0.75em;
 }
 #questions-section h3 {
