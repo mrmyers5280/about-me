@@ -63,7 +63,8 @@ ol, ul {
 	letter-spacing: 0.05em;
 }
 #project-section {
-	background-color: #BF9B4F;
+	overflow: auto;
+	background-color: #CAB790; /* BF9B4F */
 }
 #project-section .projects > li {
 	width: 33.33%;
