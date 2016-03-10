@@ -4,6 +4,7 @@ body {
 	color: #222222;
 	font-size: 1em;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	line-height: 1.65;
 }
 a {
 	/*Typography Declarations*/
@@ -13,8 +14,13 @@ a {
 }
 ol, ul {
 	list-style: none;
+	padding-left: 0;
 }
 
+#nav {
+	height: 3rem;
+	background-color: #BF9B4F;
+}
 #content-footer,
 #masthead-heading,
 #masthead-intro {
@@ -24,7 +30,6 @@ ol, ul {
 	padding: 6em 0;
 	background-image: url('https://ununsplash.imgix.net/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?dpr=2&fit=crop&fm=jpg&h=625&q=75&w=950');
 	background-size: cover;
-	border-top: solid 1em #BF9B4F;
 }
 #masthead-intro {
 	/* Layout Declarations */
@@ -74,19 +79,6 @@ ol, ul {
 }
 .projects img {
 	width: 150px;
-}
-#questions-section h2 {
-	/* Removes extra h2 spacing above first question */
-	margin-bottom: -0.75em;
-}
-#questions-section h3 {
-	/*Typography Declarations*/
-	font-family: "Gentium Book Basic", Georgia, serif;
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #BF9B4F;
-	/* Layout */
-	margin: 2em 0 1em 0;
 }
 #footer {
 	background-color: #58534A;/*Was: #4E4C59*/
