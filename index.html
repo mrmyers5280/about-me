@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>About Me</title>
-	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -12,13 +11,18 @@
 	<script src="js/app.js"></script>
 </head>
 <body>
-	<header id="masthead">
-		<p id="masthead-intro">Hi, I'm</p>
-		<h1 id="masthead-heading">Mike!</h1>
+	<header>
+		<div id="nav">
+			<p>Mike Myers</p>
+		</div>
+		<div id="masthead">
+			<p id="masthead-intro">Hi, I'm</p>
+			<h1 id="masthead-heading">Mike!</h1>
+		</div>
 	</header>
 	<section id="introduction-section">
-		<h2>Who I Am</h2>
-		<p>I am an entry-level front-end web developer who gets <em>giddy</em> at the thought of using code to make and change elements on web pages. I have a broad range of professional experience and skills ranging from desktop trouble-shooting to the ability to hand code <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>.</p>
+		<!-- <h2>Who I Am</h2> -->
+		<p>I am an entry-level front-end web developer who gets <em>giddy</em> at the thought of using code to make and change elements on web pages. I have a broad range of professional experience and skills ranging from desktop trouble-shooting to the ability to hand code <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>. I'm looking for a position as an HTML developer converting designs into live web pages in the Denver, CO area.</p>
 		<p>I love learning, especially learning about web technologies like HTML, CSS and JavaScript. I'm enrolled in the <a href="https://www.thinkful.com/" target="_blank">Front End Career Path at Thinkful</a> and I'm learning a lot. You can see some of my work below.</p>
 		<p>I volunteer with a local conservation organization that does river and trail repair as well as offering monthly presenters on related topics. Additionally, I manage their WordPress website as well as creating content for the site.</p>
 	</section>
@@ -29,17 +33,29 @@
 				<li>
 					<h3>API Hack</h3>
 					<a href="https://mrmyers5280.github.io/slideshow-feed/index.html" target="_blank"><img src="images/Slideshow-feed.png" alt="Slideshow feed app image" /></a>
-					<p>In this project I used the Instagram API along with the Soundcloud API to create a slideshow based on a user-supplied tag set to music.</p>
+					<p>A mashup using the Instagram API along with the Soundcloud API to create a slideshow based on a user-supplied tag set to music.</p>
+					<ul class="git-links">
+						<li><a href="">Github</a></li>
+						<li><a href="">Demo</a></li>
+					</ul>
 				</li>
 				<li>
 					<h3>Shopping List</h3>
 					<a href="https://mrmyers5280.github.io/shopping-list/index.html" target="_blank"><img src="images/Thinkful-Shopping-List.png" alt="Shopping list app image" /></a>
 					<p>This project uses jQuery to create a to-do list where items can be added, removed and reordered.</p>
+					<ul class="git-links">
+						<li><a href="">Github</a></li>
+						<li><a href="">Demo</a></li>
+					</ul>
 				</li>
 				<li>
 					<h3>Street Fighter</h3>
 					<a href="http://mrmyers5280.github.io/jQuery-streetfighter/" target="_blank"><img src="images/Ryu-hadouken-page.png" alt="Ryu hadouken page image" /></a>
 					<p>This fun exercise uses jQuery to animate an action figure and play music all based on user inputs.</p>
+					<ul class="git-links">
+						<li><a href="">Github</a></li>
+						<li><a href="">Demo</a></li>
+					</ul>
 				</li>
 			</ul>
 			<ul class="projects">
@@ -47,46 +63,47 @@
 					<h3>FizzBuzz</h3>
 					<a href="http://mrmyers5280.github.io/fizz-buzz/" target="_blank"><img src="images/fizzbuzz-screenshot.png" alt="FizzBuzz app image" /></a>
 					<p>The classic where it prints numbers unless they are divisible by 3 (Fizz), divisible by 5 (Buzz) or divisible by both (FizzBuzz).</p>
+					<ul class="git-links">
+						<li><a href="">Github</a></li>
+						<li><a href="">Demo</a></li>
+					</ul>
 				</li>
 				<li>
 					<h3>YouTube Search</h3>
 					<a href="http://mrmyers5280.github.io/youtube-search/" target="_blank"><img src="images/YouTube-search.png" alt="YouTube search app image" /></a>
 					<p>A simple page that searches YouTube for videos matching a search string.</p>
+					<ul class="git-links">
+						<li><a href="">Github</a></li>
+						<li><a href="">Demo</a></li>
+					</ul>
 				</li>
 				<li>
 					<h3>Hot or Cold App</h3>
 					<a href="http://mrmyers5280.github.io/hot-or-cold-starter/" target="_blank"><img src="images/hot-or-cold-starter-screenshot.png" alt="Hot or Cold game image" /></a>
 					<p>A game where the user guesses the randomly selected number and is told whether they are hot or cold in relation to how close to the number their guess was.</p>
+					<ul class="git-links">
+						<li><a href="">Github</a></li>
+						<li><a href="">Demo</a></li>
+					</ul>
 				</li>
 			</ul>
 		</div>
 	</section>
-	<section id="location-section">
+	<!-- <section id="location-section">
 		<h2>Where I'm From</h2>
 		<p>I am from Boulder, CO and am grateful for the wonderful childhood I had wandering through the foothills throwing rocks, breaking sticks and <strong>falling in love with the mountains</strong>. But like a lot of Coloradans, <strong>I also love the ocean</strong>. I went to school on the Gulf Coast for my Communications degree and I have been fortunate enough to spend a lot of time on the West coast.</p>
 		<p>I have left the Denver/Boulder area a few times for love and/or money but I always return. There's no place like it and I'm greatful to be back again.</p>
-	</section>
-	<!-- <section id="questions-section">
-		<h2>More About Me</h2>
-		<h3>What are your favorite hobbies?</h3>
-		<p>I love to do all the things that make Colorado so great. I am a fly fisherman and fly tyer. I love to mountain bike and hike in the summer and ski in the winter. I'm also a hobbyist photographer. Basically, I have too many hobbies and not enough time!</p>
-		<h3>What's your dream job?</h3>
-		<p>I am looking for an entry-level front-end web developer opportunity in the Denver area with a company that can benefit from and foster my curiosity and my desire to improve my personal and professional skills and with an office environment that <strong>welcomes dogs</strong>.</p>
-		<h3>What's your background?</h3>
-		<p>I have a broad range of professional experience and skills ranging from desktop trouble-shooting to the ability to hand code HTML, CSS and JavaScript. I have worked in a wide variety of industries including outdoor recreation, healthcare, insurance brokerage and Government.</p>
-		<h3>What music have you been listening to lately?</h3>
-		<p>I love music and have recently been getting into chill electronic dance music. But I also like several indie bands like <a href="http://americanmary.com/" target="_blank">The National</a>, <a href="http://www.phantogram.com/" target="_blank">Phantogram</a> and <a href="http://www.tvontheradio.com/" target="_blank">TV On The Radio</a>.</p>
 	</section> -->
 	<footer id="footer">
 		<div id="content-footer">
 		<p>Say hi to me on these social networks:</p>
 		<ul id="social">
-			<li><a href="http://www.portfolio.myerswest.com" target="_blank"><i class="fa fa-desktop fa-2x"></i><br />Portfolio</a></li>
+			<li><a href="http://www.portfolio.myerswest.com" target="_blank"><i class="fa fa-desktop fa-2x"></i><br />Blog</a></li>
 			<li><a href="https://github.com/mrmyers5280" target="_blank"><i class="fa fa-github fa-2x"></i><br />Github</a></li>
 			<!-- <li><a href="https://twitter.com/NotThatMikeM" target="_blank"><i class="fa fa-twitter fa-2x"></i><br />Twitter</a></li> -->
 			<li><a href="https://www.linkedin.com/in/notthatmikemyers" target="_blank"><i class="fa fa-linkedin fa-2x"></i><br />LinkedIn</a></li>
 		</ul>
-		<p id="photoCredit">Cover image via <a href="http://www.unsplash.com">Unsplash</a></p>
+		<p id="photoCredit">Cover image via <a href="http://www.unsplash.com" target="_blank">Unsplash</a></p>
 		</div>
 	</footer>
 </body>
