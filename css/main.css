@@ -3,8 +3,8 @@ body {
 	/* Typography Declarations */
 	color: #222222;
 	font-size: 1em;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
-	line-height: 1.65;
+	font-family: Lato, "Helvetica Neue", sans-serif;
+	line-height: 1.75;
 }
 a {
 	/*Typography Declarations*/
@@ -20,6 +20,30 @@ ol, ul {
 #nav {
 	height: 3rem;
 	background-color: #BF9B4F;
+	font-size: 1.5rem;
+}
+#nav h1 {
+	margin-top: 0;
+	font-size: 1.5rem;
+	float: left;
+}
+nav {
+	float: right;
+}
+nav ul {
+	margin-top: 0;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	color: black;
+	font-size: 1rem;
+	padding-right: 1rem;
+}
+nav a:visited,
+nav a:hover {
+	color: #58534A;
 }
 #content-footer,
 #masthead-heading,
@@ -27,13 +51,13 @@ ol, ul {
 	text-align: center;
 }
 #masthead {
-	padding: 6em 0;
+	padding: 6rem 0;
 	background-image: url('https://ununsplash.imgix.net/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?dpr=2&fit=crop&fm=jpg&h=625&q=75&w=950');
 	background-size: cover;
 }
 #masthead-intro {
 	/* Layout Declarations */
-	margin-bottom: 0.1em;
+	margin-bottom: 0;
 	/* Typography Declarations */
 	font-family: "Gentium Book Basic", Georgia, serif;
 	font-size: 2em;
@@ -41,9 +65,10 @@ ol, ul {
 }
 #masthead-heading {
 	/* Layout Declarations */
-	margin-top: -0.2em;
+	margin-top: -0.4em;
 	/* Typography Declarations */
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	/*font-family: "Open Sans", "Helvetica Neue", sans-serif;*/
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
 	font-weight: bold;
 	font-size: 6em;
 	letter-spacing: -0.02em;
@@ -53,19 +78,11 @@ ol, ul {
 }
 #content-footer,
 #introduction-section,
-#location-section,
-.content,
-#questions-section {
+.content {
 	max-width: 38em;
 	margin: 2em auto;
+	padding: 0 1em;
 	clear: both;
-}
-#introduction > p,
-#location > p,
-#content-footer > p {
-	/*Typography Declarations*/
-	font-weight: 300;
-	letter-spacing: 0.05em;
 }
 #project-section {
 	overflow: auto;
@@ -80,6 +97,18 @@ ol, ul {
 .projects img {
 	width: 150px;
 }
+.git-links > li {
+	display: inline-block;
+}
+.git-links > li:first-child {
+	padding-left: 0.75rem;
+	padding-right: 2rem;
+}
+.git-links a {
+	color: #58534A;
+	font-weight: bold;
+	text-decoration: none;
+}
 #footer {
 	background-color: #58534A;/*Was: #4E4C59*/
 	padding: 4em 0;
@@ -89,11 +118,14 @@ ol, ul {
 	color: #BE7C53;
 }
 #content-footer > p {
+	/*Typography Declarations*/
+	font-weight: 300;
+	letter-spacing: 0.05em;
 	color: white;
 }
 #social > li {
 	display: inline-block;
-	padding-right: 1.5em;
+	padding-right: 1.5rem;
 }
 #photoCredit {
 	margin-top: 40px;
