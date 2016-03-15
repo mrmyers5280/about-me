@@ -8,7 +8,7 @@ body {
 }
 a {
 	/*Typography Declarations*/
-	color: #BF9B4F;
+	color: #4A3E37;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -19,7 +19,7 @@ ol, ul {
 
 #nav {
 	height: 3rem;
-	background-color: #BF9B4F;
+	background-color: #8A7467;	/*was:#BF9B4F*/
 	font-size: 1.5rem;
 }
 #nav h1 {
@@ -37,14 +37,14 @@ nav ul {
 nav li {
 	display: inline-block;
 }
-nav a {
-	color: black;
+#nav-main a {
 	font-size: 1rem;
 	padding-right: 1rem;
+	padding-top: 0;
 }
 nav a:visited,
 nav a:hover {
-	color: #58534A;
+	color: #4A3E37;
 }
 #content-footer,
 #masthead-heading,
@@ -53,7 +53,8 @@ nav a:hover {
 }
 #masthead {
 	padding: 6rem 0;
-	background-image: url('https://ununsplash.imgix.net/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?dpr=2&fit=crop&fm=jpg&h=625&q=75&w=950');
+	background-image: url('../images/Green-mtn-selfie.JPG');
+	/*background-image: url('https://ununsplash.imgix.net/reserve/m6rT4MYFQ7CT8j9m2AEC_JakeGivens%20-%20Sunset%20in%20the%20Park.JPG?dpr=2&fit=crop&fm=jpg&h=625&q=75&w=950');*/
 	background-size: cover;
 }
 #masthead-intro {
@@ -62,7 +63,7 @@ nav a:hover {
 	/* Typography Declarations */
 	font-family: "Gentium Book Basic", Georgia, serif;
 	font-size: 2em;
-	color: #7E5237;
+	color: #705F54;	/*was: #7E5237*/
 }
 #masthead-heading {
 	/* Layout Declarations */
@@ -74,8 +75,8 @@ nav a:hover {
 	font-size: 6em;
 	letter-spacing: -0.02em;
 	text-transform: uppercase;
-	color: #3E291B;
-	text-shadow: 0 3px #BF9B4F; /*Was: #CCAB52*/
+	color: #4A3E37;	/*was: #3E291B*/
+	text-shadow: 0 3px #D6B4A0; /*Was: #BF9B4F*/
 }
 #content-footer,
 #introduction-section,
@@ -87,7 +88,7 @@ nav a:hover {
 }
 #project-section {
 	overflow: auto;
-	background-color: #CAB790; /* BF9B4F */
+	background-color: #A0C1F3; /* CAB790 */
 }
 #project-section .projects > li {
 	width: 11em;
@@ -97,6 +98,7 @@ nav a:hover {
 }
 .projects img {
 	width: 150px;
+	border: 1px solid black;
 }
 .git-links > li {
 	display: inline-block;
@@ -106,17 +108,17 @@ nav a:hover {
 	padding-right: 2rem;
 }
 .git-links a {
-	color: #58534A;
+	/*color: #58534A;*/
 	font-weight: bold;
 	text-decoration: none;
 }
 #footer {
-	background-color: #58534A;/*Was: #4E4C59*/
+	background-color: #8A7467;/*Was: #58534A*/
 	padding: 4em 0;
 }
 #content-footer a:visited,
 #content-footer a:hover {
-	color: #BE7C53;
+	color: #B3D9A9;
 }
 #content-footer > p {
 	/*Typography Declarations*/
