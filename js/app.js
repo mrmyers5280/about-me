@@ -1,2 +1,4 @@
 // app.js
-var navigation = $('#nav-main').okayNav();
+$(document).ready(function() {
+	var navigation = $('#nav-main').okayNav();    
+})
