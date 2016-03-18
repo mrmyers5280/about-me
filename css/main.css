@@ -86,9 +86,12 @@ nav a:hover {
 	padding: 0 1em;
 	clear: both;
 }
+#introduction-section a {
+	color: #7C98D9;
+}
 #project-section {
 	overflow: auto;
-	background-color: #A0C1F3; /* CAB790 */
+	background-color: #C8E0F4; /* CAB790 */
 }
 #project-section .projects > li {
 	width: 11em;
