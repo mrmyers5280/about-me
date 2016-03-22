@@ -94,13 +94,13 @@ nav a:hover {
 	background-color: #C8E0F4; /* CAB790 */
 }
 #project-section .projects > li {
-	width: 11em;
+	width: 31%;
 	display: inline-block;
 	vertical-align: top;
 	padding: 5px 5px;
 }
 .projects img {
-	width: 150px;
+	width: 100%;
 	border: 1px solid black;
 }
 .git-links > li {
